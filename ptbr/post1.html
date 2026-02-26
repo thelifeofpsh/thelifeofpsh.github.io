@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="blog pessoal para conversas, compartilhar conhecimento e soltar ideias">
+  <meta name="keywords" content="blog, pessoal, digital garden, linux, opensource, pirataria">
+  <meta name="author" content="poloni">
+
+  <meta property="og:description" content="blog pessoal para conversas, compartilhar conhecimento e soltar ideias">
+  <meta property="og:url" content="https://web.poloni.is-cool.dev">
+  <meta property="og:image" content="https://web.poloni.is-cool.dev/favicon.jpg">
+  <meta property="og:type" content="website">  
+  
+  <link rel="icon" type="image/jgep" href="/img/favicon.jpg">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="alternate" hreflang="en" href="https://web.poloni.is-cool.dev/" />
+  <link rel="alternate" hreflang="pt-BR" href="https://web.poloni.is-cool.dev/ptbr/" />
+  
+  <title>post1 — thelifeofp</title>
+<meta property="og:title" content="post1" />
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">home</a>
+  <a href="posts.html">posts</a>
+  <a href="copythissite.html">copy_this_site</a>
+  <a href="/">en</a>
+</nav>
+
+<article>
+<h1 id="como-construí-minha-cápsula-gemini-não-é-um-tutorial">como
+construí minha cápsula gemini (não é um tutorial)</h1>
+<h2 id="por-que-uma-cápsula-e-não-um-blog-normal">por que uma cápsula e
+não um blog normal?</h2>
+<p>primeiro, já tenho esse blog/site pessoal, onde basicamente me dedico
+um pouco mais, mas para mensagens e informações mais <em>“íntimas”</em>
+ou pensamentos mais elaborados, <del>talvez?</del> vou usar minha
+cápsula. quero viver a internet, se é que você me entende.</p>
+<h2 id="processo-de-construção-da-cápsula">processo de construção da
+cápsula</h2>
+<p>bem, com um laboratório doméstico e o editor micro, um homem pode ir
+à lua! <strong>era o que meus pais costumavam dizer…</strong> ou não? de
+qualquer forma, meu foco era ter meu próprio espaço na web.</p>
+<h3 id="problemas-com-o-servidor">problemas com o servidor</h3>
+<p>o primeiro problema foi que o servidor não estava funcionando; ele
+reconhecia a porta 1965, mas não conseguia se conectar, dizia que já
+existia algo utilizando a porta, o que não era verdade. abri a porta
+através do portal vivo (modem) e usei o ufw para permitir o uso da
+porta, <del>mesmo sem entender realmente como funciona</del>. usei o
+agate para ativar o servidor, mas não funcionou. mais tarde, com novos
+testes, consegui ativá-lo usando o Jetforce.</p>
+<p>outro problema era com o redirecionamento do ip, então precisei usar
+o <em>duckdns</em> para obter um ip fixo.</p>
+<h3 id="finalmente-está-vivo-e-não-falo-da-empresa">Finalmente, ESTÁ
+VIVO (e não falo da empresa)</h3>
+<p>da mesma forma que o <em>Dr. Frankenstein</em> se sentiu ao ver o
+monstro vivo, eu me senti ao ver minha cápsula viva! mas, afinal, por
+que isso é importante? bem, porque sou burro e ter feito tudo isso
+sozinho, realmente me deixou feliz.</p>
+<h2 id="homelab">homelab</h2>
+<p>minha cápsula funciona inteiramente com estas especificações:</p>
+<ul>
+<li>os: debian gnu/linux 13 (trixie)</li>
+<li>kernel: linux 6.18.5-meson64</li>
+<li>shell: bash</li>
+<li>host: tanix w2 - amlogic meson s4 s905w2 ap201 reference board</li>
+<li>cpu: s4 (4) (arm64)</li>
+<li>gpu: amlogic meson-g12a-mali (integrated)</li>
+</ul>
+<p>o <em>tanix w2</em> foi projetado para ser uma tvbox android, mas eu
+não gosto muito de como ele funcionava. então, instalei o
+<em>Debian</em> para arm e agora ele está muito melhor que antes!</p>
+<p>![[/img/tanixw2.png|500]]</p>
+<hr />
+<p><strong>nesse link, existe lista de todas as tvbox que suportam o
+debian/ubuntu arm</strong></p>
+<p>https://github.com/devmfc/debian-on-amlogic</p>
+</article>
+
+<footer>
+  <a rel="me" title="email &quot;poloni&quot; &lt;poloni@duck.com&gt;" href="mailto:poloni@duck.com">envie um e-mail para ctt</a>
+  <p>thelifeofp - 2026 | no rights reserved ♺</p>
+
+</footer>
+
+</body>
+</html>

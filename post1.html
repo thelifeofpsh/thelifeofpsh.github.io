@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="a personal blog for conversations, sharing knowledge, and letting ideas flow">
+  <meta name="keywords" content="blog, personal, digital garden, linux, opensource, piracy">
+  <meta name="author" content="poloni">
+
+  <meta property="og:description" content="a personal blog for conversations, sharing knowledge, and letting ideas flow">
+  <meta property="og:url" content="https://web.poloni.is-cool.dev">
+  <meta property="og:image" content="https://web.poloni.is-cool.dev/favicon.jpg">
+  <meta property="og:type" content="website">  
+  
+  <link rel="icon" type="image/jpeg" href="img/favicon.jpg">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="alternate" hreflang="pt-BR" href="https://web.poloni.is-cool.dev/ptbr/" />
+  <link rel="alternate" hreflang="en" href="https://web.poloni.is-cool.dev/" />
+
+
+  <title>post1 — thelifeofp</title>
+<meta property="og:title" content="post1" />
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">home</a>
+  <a href="posts.html">posts</a>
+  <a href="copythissite.html">copy_this_site</a>
+  <a href="ptbr/index.html">ptbr</a>
+</nav>
+
+<article>
+<h1 id="how-i-built-my-gemini-capsule-not-a-tutorial">how i built my
+gemini capsule (not a tutorial)</h1>
+<h2 id="why-a-capsule-and-not-a-normal-blog">why a capsule and not a
+normal blog?</h2>
+<p>first, i already have this personal blog/site, where i basically put
+in a bit more effort, but for messages and more <em>“intimate”</em> info
+or more elaborate thoughts, <del>maybe?</del> i’m going to use my
+capsule. i want to experience the internet, if you know what i mean.</p>
+<h2 id="capsule-construction-process">capsule construction process</h2>
+<p>well, with a homelab and the micro editor, a man can go to the moon!
+<strong>that’s what my parents used to say…</strong> or not? anyway, my
+focus was on having my own space on the web.</p>
+<h3 id="server-problems">server problems</h3>
+<p>the first problem was that the server wasn’t working; it recognized
+port 1965, but couldn’t connect, saying that something was already using
+the port, which wasn’t true. i opened the port through the vivo portal
+(modem) and used ufw to allow the use of the port, <del>even without
+really understanding how it works</del>. i used agate to activate the
+server, but it didn’t work. later, with new tests, i managed to activate
+it using Jetforce.</p>
+<p>another problem was with the ip redirection, so i had to use
+<em>duckdns</em> to get a fixed ip.</p>
+<h3 id="finally-its-alive-and-im-not-talking-about-the-company">finally,
+IT’S ALIVE (and i’m not talking about the company)</h3>
+<p>the same way <em>Dr. Frankenstein</em> felt seeing the monster alive,
+i felt seeing my capsule alive! but, after all, why is this important?
+well, because i’m dumb and having done all this by myself really made me
+happy.</p>
+<h2 id="homelab">homelab</h2>
+<p>my capsule runs entirely with these specs:</p>
+<ul>
+<li>os: debian gnu/linux 13 (trixie)</li>
+<li>kernel: linux 6.18.5-meson64</li>
+<li>shell: bash</li>
+<li>host: tanix w2 - amlogic meson s4 s905w2 ap201 reference board</li>
+<li>cpu: s4 (4) (arm64)</li>
+<li>gpu: amlogic meson-g12a-mali (integrated)</li>
+</ul>
+<p>the <em>tanix w2</em> was designed to be an android tvbox, but i
+didn’t really like how it worked. so, i installed <em>Debian</em> for
+arm and now it’s much better than before!</p>
+<p>![[img/tanixw2|500]]</p>
+<hr />
+<p><strong>in this link, there is a list of all tvboxes that support
+debian/ubuntu arm</strong></p>
+<p>https://github.com/devmfc/debian-on-amlogic</p>
+</article>
+
+<footer>
+  <a rel="me" title="email &quot;poloni&quot; &lt;poloni@duck.com&gt;" href="mailto:poloni@duck.com">email me</a>
+  <p>thelifeofp - 2026 | no rights reserved ♺</p>
+
+</footer>
+
+</body>
+</html>
